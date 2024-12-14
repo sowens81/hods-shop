@@ -1,0 +1,274 @@
+# VSCode
+.vscode/
+
+# Go (Golang)
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependencies and vendor directory
+vendor/
+
+# Go Modules
+go.sum
+go.mod
+
+# Node.js
+# Node.js
+node_modules/
+
+# npm logs
+npm-debug.log
+yarn-error.log
+
+# Package lock and yarn lock files
+package-lock.json
+yarn.lock
+
+# Build output (dist, compiled files)
+dist/
+
+# React.js
+# Build output from React
+build/
+*.log
+
+# C# / .NET
+# Build output directories
+bin/
+obj/
+
+# User and Visual Studio state files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core & WebAPI
+project.lock.json
+project.fragment.lock.json
+
+# JavaScript (General)
+*.log
+node_modules/
+
+# Python
+# Bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Python environments and virtualenvs
+env/
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PowerShell
+# PowerShell temp files
+*.ps1~
+*.psd1~
+*.psm1~
+*.log
+
+# .env files (sensitive data)
+.env
+.env.*  # in case you have different environments like .env.production
+
+# ADO YAML Pipelines
+.vsts/
+*.vspscc
+
+# Azure DevOps specific files
+.idea/
+.idea_modules/
+
+# GitHub Actions
+.github/workflows/*
+
+# Docker
+# Docker container images
+*.tar
+*.tar.gz
+*.tgz
+
+# Docker Compose files (depending on use, may exclude or add these)
+docker-compose.override.yml
+docker-compose.yml
+
+# Docker build artifacts
+.docker/
+
+# Kubernetes
+# Kubernetes config files
+*.kube/config
+.kube/
+
+# Terraform
+# State files and backups
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Terraform plan files
+*.plan
+
+# ARM Templates
+*.json
+*.params.json
+*.xml
+*.template
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Linux specific
+*~ 
+.nfs
+
+# IDEs and Editor Files
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# NetBeans
+nbproject/
+
+# Emacs
+*~
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Text Editor backup files
+*~
+*.bak
+*.swp
+
+# Logs
+*.log
+*.pid
+*.seed
+
+# Testing
+coverage/
+*.test.js
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+*.log.*
+
+# Build outputs (for tools like Webpack, etc.)
+dist/
+build/
+tmp/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# .env file for storing environment variables (not to be versioned)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+*.env
+
+# Yarn Integrity file
+.yarn-integrity
+
+# pnpm
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# SASS / SCSS caches
+.sass-cache/
+
+# Next.js (React Framework)
+.next/
+out/
+
+# Nuxt.js (Vue Framework)
+.nuxt/
+dist/
+
+# Ionic (mobile framework)
+www/
+
+# Expo (React Native)
+.expo/
+.expo-shared/
+
+# Android Studio (Android project files)
+*.iml
+.idea/
+*.apk
+*.ap_
+build/
+.gradle/
+local.properties
+/captures/
+
+# Xcode (iOS project files)
+# macOS
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Unity (Game Development)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+
+# Unreal Engine (Game Development)
+*.vs
+.vscode/
+.idea/
+
+# Unity (C# Development)
+.idea/
+
+# Firebase functions
+node_modules/
+functions/node_modules/
+*.log
+*.zip
