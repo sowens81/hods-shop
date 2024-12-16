@@ -1,5 +1,5 @@
 package dto
 
-type ListResponse3 struct {
+type TagsResponse struct {
 	Tags []string `json:"tags"`
 }
